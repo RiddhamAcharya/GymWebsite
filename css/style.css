@@ -1,0 +1,104 @@
+        /* CSS Reset */
+        body {
+    color: white;
+    margin: 0px;
+    padding: 0px;
+    background: url(img/bg.jpg);
+}
+
+.left {
+    position: absolute;
+    left: 60px;
+    top: 20px;
+    display: inline-block;
+    /* border: 2px solid red; */
+}
+
+.left img {
+    width: 140px;
+}
+
+.left div {
+    text-align: center;
+    line-height: 13px;
+    font-size: 20px;
+}
+
+.mid {
+    display: block;
+    width: 51%;
+    margin: 20px auto;
+    /* border: 2px solid green; */
+}
+
+.right {
+    position: absolute;
+    right: 12px;
+    top: 37px;
+    display: inline-block;
+    /* border: 2px solid yellow; */
+}
+
+.navbar {
+    display: inline-block;
+}
+
+.navbar li {
+    display: inline-block;
+    font-size: 25px;
+}
+
+.navbar li a {
+    color: white;
+    text-decoration: none;
+    padding: 34px 23px;
+}
+
+.navbar li a:hover, .navbar li a.active {
+    text-decoration: underline;
+    color: grey;
+}
+
+.btn {
+    margin: 0px 9px;
+    background-color: black;
+    color: white;
+    padding: 4px 14px;
+    border: 2px solid grey;
+    border-radius: 10px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: rgb(31, 30, 30)
+}
+
+.container {
+    border: 2px solid white;
+    margin: 102px 80px;
+    padding: 75px;
+    width: 43%;
+    border-radius: 28px;
+}
+
+.form-group input {
+    text-align: center;
+    display: block;
+    width: 508px;
+    padding: 1px;
+    border: 2px solid black;
+    margin: 11px auto;
+    font-size: 25px;
+    border-radius: 8px;
+}
+
+.container h1 {
+    text-align: center;
+}
+
+.container button {
+    display: block;
+    width: 90%;
+    margin: auto;
+}
